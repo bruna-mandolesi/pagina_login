@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+}
+
+.login-form {
+    max-width: 320px;
+    width: 100%;
+    padding: 40px;
+    background: #ffffffc4;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px #00001a;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.form-heading {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group .label {
+    position: absolute;
+    top: -16px;
+    left: 12px;
+    font-size: 12px;
+    color: #0f52ba;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.input-group input {
+    width: 275px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #0f52ba;
+    box-shadow: 0 0 10px #00004d;
+}
+
+.input-group input:focus + .label {
+    top: -20px;
+    font-size: 11px;
+    color: #0f52ba;
+    opacity: 1;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    font-size: 14px;
+    color: #0f52ba;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #3a7ca4;
+}
+
+.submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #0f52ba;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #0197f6;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px #00004d;
+}
+
+.signup-link {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-link a {
+    color: #3a7ca4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+    color: #3a7ca4;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    } 
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
