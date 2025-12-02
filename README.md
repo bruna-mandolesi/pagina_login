@@ -1,6 +1,6 @@
-#Tela de Login 
+# Tela de Login 
 
-##📝 Descrição
+## 📝 Descrição
 
 Este projeto é uma tela de login simples feita com HTML e CSS. 
 
@@ -10,7 +10,7 @@ Aprendi a estrutura básica e a estilização de uma tela de login com boas prá
 
 Ideal para quem está iniciando no desenvolvimento web! 💻
 
-#📸 Print das Telas
+# 📸 Print das Telas
 ![WhatsApp Image 2025-12-02 at 11 38 51](https://github.com/user-attachments/assets/e7e460e5-a7be-4cca-be96-02348b835ea0)
 
 
